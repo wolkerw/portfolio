@@ -1,6 +1,6 @@
 import React from 'react'
 import { Counter } from './features/counter/Counter'
-import { Portfolio } from './features/portfolio/Portfolio'
+import { Header } from './components/Header'
 import './App.css'
 
 function App() {
@@ -56,7 +56,7 @@ function App() {
           </a>
         </span> */}
       {/* </header> */}
-      <Portfolio />
+      <Header />
     </div>
   )
 }
