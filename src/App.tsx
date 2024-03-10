@@ -1,20 +1,20 @@
-import React from 'react'
-import { Counter } from './features/counter/Counter'
-import { Header } from './components/Header'
-import './App.css'
+import React from "react";
+// import { Counter } from "./features/counter/Counter";
+import { Header } from "./components/Header";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       {/* <header className="App-header"> */}
-        {/* <img
+      {/* <img
           src={`${process.env.PUBLIC_URL ?? ''}/logo.svg`}
           className="App-logo"
           alt="logo"
         /> */}
-        
-        {/* 11<Counter /> */}
-        {/* <p>
+
+      {/* 11<Counter /> */}
+      {/* <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <span>
@@ -58,7 +58,7 @@ function App() {
       {/* </header> */}
       <Header />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
