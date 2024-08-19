@@ -1,0 +1,13 @@
+.home {
+  margin-top: 64px;
+  display: flex;
+}
+
+.leftSide {
+  width: 375px;
+  height: 525px;
+  background-color: #f4ece6;
+}
+
+.rightSide {
+}

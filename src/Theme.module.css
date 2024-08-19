@@ -1,0 +1,20 @@
+.content {
+  width: 1140px;
+  margin: 0 auto;
+
+  @media (max-width: 1139px) {
+    width: 960px;
+  }
+
+  @media (max-width: 959px) {
+    width: 720px;
+  }
+
+  @media (max-width: 719px) {
+    width: 540px;
+  }
+
+  @media (max-width: 539px) {
+    width: auto;
+  }
+}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React /*, { useState } */ from 'react'
 
 // import { useAppSelector, useAppDispatch } from '../../app/hooks';
 // import {
@@ -10,9 +10,9 @@ import React, { useState } from "react";
 //   selectCount,
 // } from './counterSlice';
 
-import { Menu } from "../Menu";
+import { Menu } from '../Menu'
 
-import styles from "./Header.module.css";
+import styles from './Header.module.css'
 
 export const Header = () => {
   // const count = useAppSelector(selectCount);
@@ -21,7 +21,7 @@ export const Header = () => {
 
   // const incrementValue = Number(incrementAmount) || 0;
 
-  const menuLinks = ["SOBRE MIM", "CURRÍCULO", "PROJETOS", "CONTATO"];
+  const menuLinks = ['SOBRE MIM', 'CURRÍCULO', 'PROJETOS', 'CONTATO']
 
   return (
     <header className={styles.header}>
@@ -35,5 +35,5 @@ export const Header = () => {
         <Menu links={menuLinks} />
       </div>
     </header>
-  );
-};
+  )
+}
