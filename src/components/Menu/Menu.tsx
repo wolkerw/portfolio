@@ -1,9 +1,9 @@
-import React, { FC } from "react";
+import React, { FC } from 'react'
 
-import styles from "./Menu.module.css";
+import styles from './Menu.module.css'
 
 interface IMenu {
-  links: string[];
+  links: string[]
 }
 
 export const Menu: FC<IMenu> = ({ links }) => {
@@ -11,11 +11,11 @@ export const Menu: FC<IMenu> = ({ links }) => {
     <ul className={styles.menu}>
       {links?.map((link) => {
         return (
-          <li>
+          <li key={link}>
             <a className={styles.active}>{link}</a>
           </li>
-        );
+        )
       })}
     </ul>
-  );
-};
+  )
+}

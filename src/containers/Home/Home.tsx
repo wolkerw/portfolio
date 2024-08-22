@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { SocialBar } from './../../components/SocialBar'
+
 // import theme from '../../Theme.module.css'
 import styles from './Home.module.css'
 
@@ -8,8 +10,21 @@ export const Home = () => {
     // <div className={theme.content}>
     <div className={styles.home}>
       <div className={styles.leftSide}>
-        <b>Luis Filipe Severgnini</b>
-        {/* <p>GERENTE DE PROJETOS</p> */}
+        <div className={styles.profileBox}>
+          <img
+            width="180"
+            height="180"
+            src={require('./../../assets/images/profile.jfif')}
+          />
+          <b>
+            Luis Filipe
+            <br /> Severgnini
+          </b>
+          <hr />
+          <p>GERENTE DE PROJETOS</p>
+
+          <SocialBar />
+        </div>
       </div>
 
       <div className={styles.rightSide}>

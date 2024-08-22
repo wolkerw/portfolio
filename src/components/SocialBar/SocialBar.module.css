@@ -1,0 +1,15 @@
+.menu {
+  /* width: 50%; */
+  list-style: none;
+  display: flex;
+  /* align-items: flex-end; */
+
+  li {
+    /* padding: 8px;
+    font-size: 0.875rem;
+
+    .active {
+      color: #0050ff;
+    } */
+  }
+}

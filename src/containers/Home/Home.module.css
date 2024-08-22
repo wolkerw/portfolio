@@ -1,6 +1,6 @@
 .home {
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 127px);
   display: flex;
   margin-top: 127px;
 }
@@ -8,7 +8,38 @@
 .leftSide {
   width: 45vw;
   height: 100%;
-  background-color: #f4ece6;
+  background-color: #e6dace;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  .profileBox {
+    width: 325px;
+    height: 65vh;
+    background-color: #f4ece6;
+    margin-right: -40px;
+    z-index: 1;
+    text-align: center;
+    overflow: hidden;
+
+    img {
+      display: block;
+      border-radius: 50%;
+      margin: 35px auto 20px auto;
+    }
+
+    b {
+      line-height: 130%;
+      font-size: 1.2rem;
+    }
+
+    hr {
+      height: 4px;
+      width: 18%;
+      background-color: #0050ff;
+      margin: 20px auto;
+    }
+  }
 }
 
 .rightSide {
