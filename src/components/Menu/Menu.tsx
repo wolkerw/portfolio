@@ -1,5 +1,7 @@
 import React, { FC } from 'react'
 
+import { camelizeString } from '../../utils'
+
 import styles from './Menu.module.css'
 
 interface IMenu {
@@ -12,7 +14,7 @@ export const Menu: FC<IMenu> = ({ links }) => {
       {links?.map((link) => {
         return (
           <li key={link}>
-            <a className={styles.active}>{link}</a>
+            <a href={`#${camelizeString(link)}`}>{link}</a>
           </li>
         )
       })}

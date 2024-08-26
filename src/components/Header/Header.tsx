@@ -21,7 +21,7 @@ export const Header = () => {
 
   // const incrementValue = Number(incrementAmount) || 0;
 
-  const menuLinks = ['SOBRE MIM', 'CURRÍCULO', 'PROJETOS', 'CONTATO']
+  const menuLinks = ['SOBRE MIM', 'CONTATO']
 
   return (
     <header className={styles.header}>

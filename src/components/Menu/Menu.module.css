@@ -1,5 +1,4 @@
 .menu {
-  /* width: 50%; */
   list-style: none;
   display: flex;
   align-items: flex-end;
@@ -8,8 +7,15 @@
     padding: 8px;
     font-size: 0.875rem;
 
-    .active {
+    a {
+      text-decoration: none;
       color: #0050ff;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:active {
+      font-weight: bold;
     }
   }
 }

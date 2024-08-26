@@ -3,12 +3,10 @@ import React from 'react'
 import { SocialBar } from './../../components/SocialBar'
 import { Button } from '@mui/material'
 
-// import theme from '../../Theme.module.css'
 import styles from './Home.module.css'
 
 export const Home = () => {
   return (
-    // <div className={theme.content}>
     <div className={styles.home}>
       <div className={styles.leftSide}>
         <div className={styles.profileBox}>
@@ -45,6 +43,5 @@ export const Home = () => {
         </div>
       </div>
     </div>
-    // </div>
   )
 }
